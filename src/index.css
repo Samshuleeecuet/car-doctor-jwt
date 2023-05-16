@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply bg-slate-700;
+}
+.default{
+    @apply bg-white;
+}
+.widthcontrol{
+    @apply max-w-3xl !important;
+}
+.form-contrl{
+    @apply flex gap-4;
+}
